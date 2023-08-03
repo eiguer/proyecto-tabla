@@ -227,3 +227,15 @@
     transform: rotate(0deg);
   }
 }
+
+.tabla {
+  margin: auto;
+  width: 600px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #ddd;
+}
+.tabla table {
+  text-indent: 20px;
+
+}
