@@ -10,7 +10,7 @@ const TablaPage = ({ estructura, datos }) => {
   return (
     <>
     <div className="p-8">
-      <h1 className="text-2xl font-bold mb-4">Tabla de productos</h1>
+      <h1 className="text-2xl font-bold mb-4">Tabla de contactos</h1>
       <div className="overflow-x-auto">
         <table className="table-auto w-full">
           <thead>
@@ -26,7 +26,7 @@ const TablaPage = ({ estructura, datos }) => {
             {datos.map((fila, index) => (
               <tr key={index}>
                 {estructura.map(col => (
-                  <td key={col} className="bg-gray-900 border-2 border-lime-400	 p-2">
+                  <td key={col} className="bg-gray-900 border-2 border-lime-400 p-2">
                     {fila[col]}
                   </td>
                 ))}
